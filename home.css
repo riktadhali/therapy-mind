@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+/*header-area start*/
+.header-area-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-area-menu ul{
+    display: flex;
+
+}
+.header-area-menu ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.header-area-menu ul li a{
+    text-decoration: none;
+}
+/*header-area-edn*/
+/*bannar-area-start */
+.background-img{
+    background-image: url("/image/background/Rectangle 27.png");
+    height: 616px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-text-area{
+    text-align:center;
+    width: 1440px;
+    height: 616px;
+    gap: 0px;
+}
+.background-text-area-btn button{
+    width: 338px;
+    height: 58px;
+    font-size: 80px;
+    text-align: center;
+}
+/* bannar-area-end */
+/* About-the-Principal-stert */
+.About-the-Principal{
+    display: flex;
+    padding: 70px 0 50px 0;
+}
+.About-the-Principal-text-area{
+    margin-left: 30px;
+    font: size 20px;
+}
+.About-the-Principal-text-area button{
+    width: 338px;
+    background-color: chartreuse;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+/* About-the-Principal-end */
+/* form-stert */
+#form{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 0 auto;
+    background-color: lightgray;
+}
+.form-input input{
+    height: 70px;
+    width: 90px;
+    background-color: darkkhaki;
+    border: radius 15%;
+}
+.form-input button{
+    width: 50;
+    height: 70px;
+    text-align: center;
+    background-color: cornflowerblu;
+}
+.form-text{
+    font-size: 20px;
+    margin-top: 40px;
+}
+/* form-end */
+/* services-start */
+.services-image{
+    display: flex;
+    justify-content: space-between;
+}
+.scrvices-text-area{
+    font-size: 20px ;
+    text-align: center;
+    margin-top: 40px;
+}
+.scrvices-text{
+    text-align: center;
+}
+.more{
+    width: 342px;
+    height: 73px;
+    margin-left: 50px;
+}
+/* .scrvices-end */
+/* our-philosophy-start */
+#our-philosophy{
+    display: flex;
+}
+.our-philosophy-img{
+    width: 736px ;
+    height: 734px;
+    top: 348px;
+}
+#and-you{
+    display: flex;
+}
+.and-you-text-area{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.button{
+    border: none;
+    color: azure;
+    padding: 13px,27px;
+    text-align: center;
+    font-size: 19px;
+    margin: 7px 2px;
+    cursor: pointer;
+}
+.button{
+    color: indigo;
+    background-color: bisque;
+    border: groove;
+}
+/* our-philosophy-end */
+.finish{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+}
